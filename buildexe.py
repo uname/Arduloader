@@ -12,7 +12,7 @@ setup(  version="0.1",
         name = "arduloader.exe",
         author = "Apache",
         zipfile = None,
-        windows = [{"script":"main.py", "icon_resources":[(1, "./pic/main/logo.ico")]}],
+        windows = [{"script":"main.py", "icon_resources":[(1, "./icons/main/logo.ico")]}],
 		options = {   "py2exe":
                         {   "compressed": 2,
                             "bundle_files": 1,
